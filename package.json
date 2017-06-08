@@ -1,0 +1,26 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^1.0.0",
+    "next": "^2.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-plugin-css-modules-transform": "^1.2.1",
+    "node-sass": "^4.5.0",
+    "postcss": "^5.2.16",
+    "postcss-cssnext": "^2.10.0"
+  }
+}

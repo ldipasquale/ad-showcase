@@ -1,0 +1,25 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "css-modules-transform", {
+        "extensions": [".css", ".sass"],
+        "append": ["postcss-cssnext"],
+        "extractCss": "./static/css/bundle.css",
+        "preprocessCss": "./lib/sass-processor.js"
+      }
+    ],
+    [
+      "module-alias", [
+        {
+          "src": "./components",
+          "expose": "@components"
+        },
+        {
+          "src": "./stylesheets",
+          "expose": "@stylesheets"
+        }
+      ]
+    ]
+  ]
+}
